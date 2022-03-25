@@ -4,35 +4,54 @@
       <h1 class="heading">Profesijas analīze</h1>
       <div class="pad-container">
         <div class="selection-block">
+          <h4 class="information">Vai vēlies kļūt par profesionāli šajā nozarē?</h4>
           <div class="s-box-container">
             <div class="s-box">
               <label class="s-box-switch">
-                <input type="checkbox" class="s-box-check">
+                <input id="positive" name="sBox" type="radio" class="s-box-check">
                 <span class="s-box-toggle" />
                 <h4 class="s-box-title">Vēlos</h4>
               </label>
             </div>
             <div class="s-box">
               <label class="s-box-switch">
-                <input type="checkbox" class="s-box-check">
+                <input id="neutral" name="sBox" type="radio" class="s-box-check">
                 <span class="s-box-toggle" />
                 <h4 class="s-box-title">Nezinu</h4>
               </label>
             </div>
             <div class="s-box">
               <label class="s-box-switch">
-                <input type="checkbox" class="s-box-check">
+                <input id="negative" name="sBox" type="radio" class="s-box-check">
                 <span class="s-box-toggle" />
                 <h4 class="s-box-title">Nevēlos</h4>
               </label>
             </div>
           </div>
-          <h4 class="information">kļūt par profesionāli šajā nozarē</h4>
         </div>
         <div class="input-block">
           <div class="partition">
             <h2 class="information-title">Ieteicamie analīzes punkti</h2>
-            <li class="information">Kā es to sapratu / Kas man ļāva to saprast</li>
+            <li class="information positive">Kas Tev ļāva saprast, ka vēlies būt šīs nozares profesionālis?</li>
+            <li class="information positive">Kuras zināšanas/prasmes/spējas Tev jau piemīt, kas nepieciešamas, lai kļūtu par profesionāli?</li>
+            <li class="information positive">Īsi raksturo profesionāļa ikdienas pienākumus!</li>
+            <li class="information positive">Kāda izglītība nepieciešama, lai kļūtu par proofesionāli?</li>
+            <li class="information positive">Kādas ir profesionāļa iespējas darba tirgū? Kurās profesionālajās nozarēs ir iespējas strādāt?</li>
+            <li class="information positive">Kāds bija Tavs Ēnu dienas visspilgtākais moments?</li>
+            <li class="information positive">Ko Tu kā personība ieguvi un/vai uzzināji par sevi, ēnojot šo profesionāli?</li>
+            <li class="information negative">Kas Tev ļāva saprast, ka nevēlies būt šīs nozares profesionālis?</li>
+            <li class="information negative">Kuras intereses/prasmes/zināšanas Tev pietrūkst, lai būtu piemērots ēnotajai profesijai/amatam?</li>
+            <li class="information negative">Kādas varētu būt Tavas citas profesionālās izvēles (alternatīvas)?</li>
+            <li class="information negative">Kāds bija Tavs Ēnu diienas visspilgtākais moments?</li>
+            <li class="information negative">Ko Tu kā personība ieguvi un/vai uzzināji par sevi, ēnojot šo profesionāli?</li>
+            <li class="information neutral">Kas Tev neļauj pieņemt lēmumu par savu atbilstību/piemērotību ēnošanai izvēlētajai profesijai/amatam?</li>
+            <li class="information neutral">Kāda papildus informācija/darbība Tev varētu palīdzēt izprast situāciju:</li>
+            <li class="information neutral">par profesijas standartu/profesionāļa darba ikdienu, darba pienākumiem</li>
+            <li class="information neutral">par profesijai nepieciešamo izglītību</li>
+            <li class="information neutral">par perspektīvam darba tirgū Latvijā/ārpus Latvijas</li>
+            <li class="information neutral">Tavas personības/zināšanu/prasmju novērtējums</li>
+            <li class="information neutral">Kāds bija Tavs Ēnu dienas visspilgtākais moments?</li>
+            <li class="information neutral">Ko Tu kā personība ieguvi un/vai uzzināji par sevi, ēnojot šo profesionāli?</li>
           </div>
           <div class="partition">
             <div class="information-box">

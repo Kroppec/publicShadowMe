@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="Subtraction_2" x="1241" y="-0.001" width="500" height="275.001" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Subtraction_3" x="-0.001" y="422" width="200.001" height="500" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#555" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+    </filter>
+    <filter id="Subtraction_4" x="310.5" y="911.999" width="421" height="168.001" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#555" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+    </filter>
+    <filter id="Subtraction_5" x="1719.999" y="422" width="200.001" height="500" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-color="#555" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+    </filter>
+    <clipPath id="clip-background_overlay">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="background_overlay" clip-path="url(#clip-background_overlay)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Subtraction_2)">
+      <path id="Subtraction_2-2" data-name="Subtraction 2" d="M410,275H90A89.58,89.58,0,0,1,39.68,259.63a90.263,90.263,0,0,1-32.608-39.6A89.436,89.436,0,0,1,0,185V0H33V171a75.085,75.085,0,0,0,75,75H393a75.085,75.085,0,0,0,75-75V0h32V185a89.578,89.578,0,0,1-15.371,50.32,90.264,90.264,0,0,1-39.6,32.608A89.435,89.435,0,0,1,410,275Z" transform="translate(1241)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Subtraction_3)">
+      <path id="Subtraction_3-2" data-name="Subtraction 3" d="M110,500H0V464H87a75.085,75.085,0,0,0,75-75V110A75.085,75.085,0,0,0,87,35H0V0H110a89.579,89.579,0,0,1,50.32,15.371,90.264,90.264,0,0,1,32.607,39.6A89.437,89.437,0,0,1,200,90V410a89.579,89.579,0,0,1-15.371,50.32,90.264,90.264,0,0,1-39.6,32.608A89.436,89.436,0,0,1,110,500Z" transform="translate(0 422)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Subtraction_4)">
+      <path id="Subtraction_4-2" data-name="Subtraction 4" d="M78,421H0V390.688H61.081a75.085,75.085,0,0,0,75-75V104.47a75.085,75.085,0,0,0-75-75H0V0H78a89.581,89.581,0,0,1,50.32,15.37,90.261,90.261,0,0,1,32.607,39.6A89.438,89.438,0,0,1,168,90V331a89.581,89.581,0,0,1-15.37,50.32,90.26,90.26,0,0,1-39.6,32.608A89.435,89.435,0,0,1,78,421Z" transform="translate(310.5 1080) rotate(-90)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Subtraction_5)">
+      <path id="Subtraction_5-2" data-name="Subtraction 5" d="M110,500H0V465H87a75.085,75.085,0,0,0,75-75V111A75.085,75.085,0,0,0,87,36H0V0H110a89.579,89.579,0,0,1,50.32,15.371,90.264,90.264,0,0,1,32.608,39.6A89.436,89.436,0,0,1,200,90V410a89.579,89.579,0,0,1-15.371,50.32,90.265,90.265,0,0,1-39.6,32.608A89.435,89.435,0,0,1,110,500Z" transform="translate(1920 922) rotate(180)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -11,35 +11,35 @@
             <div class="g-grade-box-container">
               <h3 class="g-grade-box-title">1</h3>
               <label class="g-grade-box-switch">
-                <input type="checkbox" class="g-grade-box-check">
+                <input name="grade-1" type="radio" class="g-grade-box-check">
                 <span class="g-grade-box-toggle"></span>
               </label>
             </div>
             <div class="g-grade-box-container">
               <h3 class="g-grade-box-title">2</h3>
               <label class="g-grade-box-switch">
-                <input type="checkbox" class="g-grade-box-check">
+                <input name="grade-1" type="radio" class="g-grade-box-check">
                 <span class="g-grade-box-toggle"></span>
               </label>
             </div>
             <div class="g-grade-box-container">
               <h3 class="g-grade-box-title">3</h3>
               <label class="g-grade-box-switch">
-                <input type="checkbox" class="g-grade-box-check">
+                <input name="grade-1" type="radio" class="g-grade-box-check">
                 <span class="g-grade-box-toggle"></span>
               </label>
             </div>
             <div class="g-grade-box-container">
               <h3 class="g-grade-box-title">4</h3>
               <label class="g-grade-box-switch">
-                <input type="checkbox" class="g-grade-box-check">
+                <input name="grade-1" type="radio" class="g-grade-box-check">
                 <span class="g-grade-box-toggle"></span>
               </label>
             </div>
             <div class="g-grade-box-container">
               <h3 class="g-grade-box-title">5</h3>
               <label class="g-grade-box-switch">
-                <input type="checkbox" class="g-grade-box-check">
+                <input name="grade-1" type="radio" class="g-grade-box-check">
                 <span class="g-grade-box-toggle"></span>
               </label>
             </div>
@@ -197,8 +197,8 @@
   }
   .g-grade-container {padding: 0;}
   .g-question-content-container {padding: 0 0 10px 0;}
-  .question-block {width: 80%}
-  .g-comment-block {width: 80%;}
+  .question-block {width: 100%}
+  .g-comment-block {width: 100%;}
 }
 
 </style>
