@@ -22,6 +22,7 @@ module.exports = {
               'neutral-accent': '#838FAB',
               'color-accent': '#D65780',
               'footer': '#0D1321',
+              'school-red': '#8A181A',
             },
         },
     },
